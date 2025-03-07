@@ -4,15 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Храм Успения Божией Матери</title>
-    
     <style>
-        @font-face {
-            font-family: 'Logtus';
-            src: url('fonts/LogtusRegular.ttf') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
-
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -21,7 +13,6 @@
             display: flex;
             justify-content: center;
         }
-
         .container {
             display: flex;
             flex-wrap: wrap;
@@ -32,72 +23,58 @@
             border-radius: 10px;
             overflow: hidden;
         }
-
         .left {
             display: flex;
             flex-direction: column;
             flex: 1;
             min-width: 300px;
         }
-
         .photo, .schedule, .post {
             width: 100%;
             height: auto;
             max-height: 400px;
             object-fit: cover;
         }
-
         .text {
             flex: 1;
             padding: 20px;
             min-width: 300px;
         }
-
-        /* 🎨 Готический стиль для заголовков и важных текстов */
         h1, .important {
-            font-family: 'Logtus', serif;
-            font-size: 26px;
+            font-size: 24px;
             font-weight: bold;
-            color: #3a1f0d; /* Тёмно-коричневый цвет */
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            color: #333;
         }
-
         p {
             font-size: 16px;
             line-height: 1.5;
             color: #555;
         }
-
         a {
             color: #007bff;
             text-decoration: none;
         }
-
         a:hover {
             text-decoration: underline;
         }
-
         .announcement {
             border: 2px solid #007bff;
             padding: 10px;
             margin-top: 10px;
             text-align: center;
         }
-
         .announcement p {
             font-size: 18px;
             font-weight: bold;
             color: black;
         }
-
         .announcement small {
             display: block;
             font-size: 12px;
             color: #777;
             margin-top: 5px;
         }
-
-        /* 📱 Адаптивность */
+        /* Адаптивность */
         @media (max-width: 1024px) {
             .container {
                 flex-direction: column;
